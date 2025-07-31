@@ -2,9 +2,11 @@
 # Introduction to Labyrinth 317
 # This code snippet is part of a text-based adventure game where the player navigates through a labyrinth.
 
-print('''==================================
-    WELCOME TO LABYRINTH 317
-==================================\n''')
+print('''
+==================================
+     WELCOME TO LABYRINTH 317
+==================================
+\n''')
 print("Hello, traveller! You have found a special place. This is Labyrinth 317.")
 print("I am LYRA, your guide through this labyrinth. You only have one task: to find the exit and escape this place.\n")
 
@@ -60,9 +62,11 @@ if path_choice == "left":
     # Hidden Passage
     print("You have found a hidden passage that leads to the outside of the labyrinth!")
     print(f"Congratulations, {player_name}, you have escaped Labyrinth 317!")
-    print('''==================================
+    print('''
+==================================
      ✦✦✦ CONGRATULATIONS ✦✦✦
-==================================\n''')
+==================================
+    \n''')
     exit()
 
 # Right Path: Symbol Hallway
@@ -101,9 +105,11 @@ else:
         else:
             print("You have found a hidden passage that leads to the outside of the labyrinth!")
             print(f"Congratulations, {player_name}, you have escaped Labyrinth 317!")
-            print('''==================================
+            print('''
+==================================
      ✦✦✦ CONGRATULATIONS ✦✦✦
-==================================\n''')
+==================================
+            \n''')
             exit()
 
     # No Book Reading
@@ -128,7 +134,9 @@ else:
         else:
             print("You have found a hidden passage that leads to the outside of the labyrinth!")
             print(f"Congratulations, {player_name}, you have escaped Labyrinth 317!")
-            print('''==================================
+            print('''
+==================================
      ✦✦✦ CONGRATULATIONS ✦✦✦
-==================================\n''')
+==================================
+            \n''')
             exit()
